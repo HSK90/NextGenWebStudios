@@ -1,6 +1,7 @@
 # Auditoría DevTools
 
 ## Objetivo
+
 Detectar recursos pesados y errores silenciosos que impactan experiencia de usuario.
 
 ## Checklist rápido
@@ -32,4 +33,3 @@ Detectar recursos pesados y errores silenciosos que impactan experiencia de usua
 
 - preparar un entorno local con `npm install` y `npm start`.
 - aplicar linting y formateo automático antes de subir cambios.
-

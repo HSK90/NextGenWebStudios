@@ -1,4 +1,5 @@
 # NextGenWebStudios
+
 Proyecto: Mission Start: Auditoría de Rendimiento y Estandarización del Workspace en "NextGen Web Solutions"
 
 ## Setup inicial
@@ -17,4 +18,3 @@ Proyecto: Mission Start: Auditoría de Rendimiento y Estandarización del Worksp
 - `src/index.js` es el punto de arranque del microservicio.
 - `.vscode/extensions.json` y `.vscode/settings.json` para un workspace listo para desarrollo.
 - `AUDIT.md` con guía de auditoría DevTools.
-
