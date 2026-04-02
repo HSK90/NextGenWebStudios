@@ -1,13 +1,14 @@
 # NextGenWebStudios
+
 Proyecto: Mission Start: Auditoría de Rendimiento y Estandarización del workspace en "NexGen Web Solutions
-├── index.html          # Estructura (Esqueleto)
-├── css/                
-    └── styles.css      # Estilo (Piel)
+├── index.html # Estructura (Esqueleto)
+├── css/  
+ └── styles.css # Estilo (Piel)
 ├── js/
-    ├── main.js         # Lógica pricipal (Cerebro)
-    └── utils.js        # Funciones de ayuda
-├── .gitignore          # Archivo que Git debe ignorar
-└── package.json        # Gestión de dependencia (npm)
+├── main.js # Lógica pricipal (Cerebro)
+└── utils.js # Funciones de ayuda
+├── .gitignore # Archivo que Git debe ignorar
+└── package.json # Gestión de dependencia (npm)
 
 ## Entorno de desarrollo
 
@@ -21,4 +22,3 @@ Proyecto: Mission Start: Auditoría de Rendimiento y Estandarización del worksp
 - El microservicio está en `src/index.js`.
 - Inicia el servicio con `npm start`.
 - El servicio responde JSON en `http://localhost:3000`.
- 
