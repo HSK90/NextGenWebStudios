@@ -4,6 +4,9 @@
   "description": "Proyecto: Mission Start: Auditoría de Rendimiento y Estandarización del workspace en \"NexGen Web Solutions\r ├── index.html          # Estructura (Esqueleto)\r ├── css/                \r     └── styles.css      # Estilo (Piel)\r ├── js/\r     ├── main.js         # Lógica pricipal (Cerebro)\r     └── utils.js        # Funciones de ayuda\r ├── .gitignore          # Archivo que Git debe ignorar\r └── package.json        # Gestión de dependencia (npm)",
   "main": "index.js",
   "scripts": {
+    "start": "node src/index.js",
+    "lint": "eslint . --ext .js",
+    "format": "prettier --write .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +23,11 @@
   "homepage": "https://github.com/HSK90/NextGenWebStudios#readme",
   "dependencies": {
     "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^10.1.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-node": "^11.1.0",
+    "prettier": "^3.8.1"
   }
 }
